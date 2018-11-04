@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <link rel="stylesheet" type="text/css" href="./style/style.css">
+    <title>Bootstrap 101 Template</title>
+
+  </head>
+ 
+  <body>
+<div id="container">
+  <h1> Формы, теги и их атрибуты </h1>
+  <h2>Заполните форму, мы хотим узнать о вас больше...</h2>
+  <p>Пожалуйста внимательно заполняйте поля</p>
+
+  <form>
+   
+<fieldset>
+<legend><strong>Коротко о себе</strong></legend>
+<p>Имя: <input  name="first_name"> </p>
+<p>Фамилия: <input  name="last_name"> </p>
+
+<p>Пол:<input type="radio" name="sex" value="man" checked> мужской
+    <input type="radio" name="sex" value="woman"> женский </p>
+<p>Возраст: <input  name="age"> лет </p>
+</fieldset>
+
+<p></p>
+<fieldset>
+<legend><strong>Подробнее о себе</strong></legend>
+
+<input type="radio" name="sex1" value="man" checked>Молодой человек<br>
+
+    <input type="radio" name="sex1" value="woman"> Девушка<br>
+
+<input  name="b_date"> Дата рождения <br>
+<input  name="marryed"> Семейное положение <br>
+<input  name="work"> Социальный статус <br>
+<input  name="city"> Местожительство <br>
+<p>
+<strong>Что вы обычно делаете на выходных:</strong></p>
+
+
+   <input type="checkbox">Сплю<Br>
+   <input type="checkbox">Гуляю с друзьями<Br>
+   <input type="checkbox">Хожу на рыбалку<Br> 
+   <input type="checkbox">Играю в игры<Br> 
+   
+
+   <p><strong>Рассказать о формах в книге, посвященной HTML:</strong></p>
+
+   <select>
+  <option selected>Site frequency:</option>
+  <option>Site frequency two:</option>
+  <option>Site frequency three:</option>
+</select> <br>
+
+<p><strong>Сколько книг вы прочитали за свою жизнь:</strong></p>
+
+<input type="radio" name="book" value="10"> 0-10 <br>
+<input type="radio" name="book" value="10"> 11-20 <br>
+<input type="radio" name="book" value="10"> 21-50 <br>
+<input type="radio" name="book" value="10"> 50+ <br>
+
+<p><strong>Ваши комментарии:</strong> </p>
+
+<p><textarea rows="10"></textarea></p>
+
+<select size="3">
+  <option>Первая позиция</option>
+  <option selected>Вторая позиция</option>
+  <option>Третья позиция</option>
+</select>
+</fieldset>
+
+<p></p>
+
+<fieldset>
+<legend><strong>И в заключение</strong></legend>
+
+<p><input  name="field1" size="35" placeholder="Это поле было введено до вас"> </p>
+<p><strong>Email:</strong>
+<input  name="email"></p>
+
+
+<p><strong>Хотите подписаться на самую модную рассылку спама?</strong> 
+  <br>
+  <i>Выберите категории</i>
+</p>
+
+   <input type="checkbox">Бесполезное оборудование!<Br>
+   <input type="checkbox">Английский за 5 минут!<Br>
+   <input type="checkbox">Миллион за 30 минут!<Br> 
+   <input type="checkbox">Увеличители всего и забесплатно!<Br> 
+   
+
+   <p><strong>Насколько сложная задача:</strong></p>
+   <p>
+     <input type="radio" name="task" value="man" checked> Совсем нет <br>
+    <input type="radio" name="task" value="woman"> Средненько <br>
+        <input type="radio" name="task" value="woman"> Жестяк <br>
+   </p>
+
+
+</fieldset>
+
+
+
+
+
+
+</form>
+
+
+
+</div>
+  </body>
+</html>
