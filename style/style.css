@@ -21,3 +21,30 @@ p, ul, ol {
   margin-right: auto;
   display: block;
 }  
+.table100{
+	width: 100%;
+	 border: 1px solid black;
+	
+}
+.table60{
+	width: 50%;
+	margin: auto;
+	border: 1px solid black;
+}
+th{
+	text-align: center;
+}
+.first{
+	font-weight: bold;
+}
+TD, TH {
+    border: 1px solid black;
+    padding: 3px;
+
+   }
+.tb1{
+	
+	border: 2px ridge gray;
+	
+	border-spacing: 0px;
+}   
